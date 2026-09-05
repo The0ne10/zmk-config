@@ -18,22 +18,21 @@
         layer_1 {
             bindings = <
 &kp F1     &kp F2  &kp F3  &kp F4     &kp F5    &kp F6                          &kp F7    &kp F8    &kp F9     &kp F10    &kp F11    &kp F12
-&trans     &trans  &trans  &trans     &trans    &trans                          &trans    &trans    &kp UP     &kp MINUS  &kp EQUAL  &kp GRAVE
-&trans     &trans  &trans  &trans     &trans    &trans                          &trans    &kp LEFT  &kp DOWN   &kp RIGHT  &trans     &trans
-&kp LSHFT  &trans  &trans  &trans     &trans    &trans    &trans       &trans   &kp LBKT  &kp RBKT  &trans     &trans     &trans     &studio_unlock
-                           &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE    &kp RET  &kp RGUI  &kp RALT  &kp RCTRL
+&none      &none   &none   &none      &none     &none                           &none     &none     &kp UP     &kp MINUS  &kp EQUAL  &kp GRAVE
+&none      &none   &none   &none      &none     &none                           &none     &kp LEFT  &kp DOWN   &kp RIGHT  &none      &none
+&kp LSHFT  &none   &none   &none      &none     &none    &none        &none     &kp LBKT  &kp RBKT  &none      &none      &none      &studio_unlock
+                           &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE    &kp RET   &kp RGUI  &kp RALT   &kp RCTRL
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none                    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none                    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none                    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none    &none    &none  &none  &none  &none  &none  &none
+                        &none  &none  &none  &none    &none  &none  &none  &none
             >;
         };
     };
 };
-
